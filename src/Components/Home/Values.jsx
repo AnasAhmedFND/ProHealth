@@ -16,7 +16,7 @@ const Values = () => {
 
 
     return (
-        <section className="container mx-auto border relative" >
+        <section className="container mx-auto border-t relative" >
             <div className="flex justify-between w-[90%]  px-5 py-8 rounded-xl ml-[5%] absolute top-[-60px] bg-white shadow-md/30 ">
                 <div className="flex gap-3 items-center">
                     <p className="border text-xl w-[40px] h-[40px] flex justify-center items-center bg-blue-500 rounded-full text-white " ><FaPhoneAlt /></p>
