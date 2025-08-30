@@ -1,4 +1,5 @@
 import About_Us from "@/Components/Home/About_Us";
+import Backseat from "@/Components/Home/Backseat";
 import Departments from "@/Components/Home/Departments";
 import Departments2 from "@/Components/Home/Departments2";
 import Hero from "@/Components/Home/Hero";
@@ -14,6 +15,7 @@ export default function Home() {
      <Departments/>
      <Departments2/>
      <Reviews />
+     <Backseat/>
 
     </>
   );
