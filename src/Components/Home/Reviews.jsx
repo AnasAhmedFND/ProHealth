@@ -16,7 +16,7 @@ const Reviews = () => {
             <h6 className='text-center text-[#307BC4] '>OF OUR CLIENTS</h6>
             {/* mother div 2-col*/}
             <div className="flex mt-5">
-                <div className="border-r-2 w-1/2 px-5 py-10  ">
+                <div className="border-r-2 border-blue-500 w-1/2 px-5 py-10  ">
                     {/* client-1 */}
                     <div className="flex gap-4 items-center">
                         <img src="/home/avatar_1.png" alt="clients man" />
