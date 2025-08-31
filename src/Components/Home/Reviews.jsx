@@ -11,8 +11,8 @@ const inter = Inter({
 
 const Reviews = () => {
     return (
-        <section className='container mx-auto  py-10  pt-10'>
-            <h2 className={`${inter.className} text-center font-bold text-3xl `} >Some Reviews</h2>
+        <section className='container mx-auto  py-10  pt-10 '>
+            <h2 className={`${inter.className} text-center font-bold text-3xl text-[#274760]  `} >Some Reviews</h2>
             <h6 className='text-center text-[#307BC4] '>OF OUR CLIENTS</h6>
             {/* mother div 2-col*/}
             <div className="flex mt-5">

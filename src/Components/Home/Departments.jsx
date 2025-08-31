@@ -8,7 +8,7 @@ const inter = Inter({
 
 const Departments = () => {
   return (
-    <section className='container mx-auto  relative pb-[150px] '>
+    <section className='container mx-auto  relative pb-[150px]  '>
         <div className=" text-center h-screen bg-cover bg-center  " style={{backgroundImage:
             "url('/home/div-dpt.png' )", height:'300px'
         }}>

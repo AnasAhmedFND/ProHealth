@@ -7,7 +7,7 @@ const inter= Inter({
 
 const Backseat = () => {
     return (
-        <section className='container mx-auto  py-10 relative'>
+        <section className='container mx-auto  py-10 relative '>
             
             <img className='' src="/home/backseat.png" alt="bgacgroun-pic" />
 

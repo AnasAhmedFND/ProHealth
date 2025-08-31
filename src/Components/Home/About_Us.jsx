@@ -14,7 +14,7 @@ const inter = Inter({
 
 const About_Us = () => {
   return (
-   <section className='container mx-auto  pt-20 '>
+   <section className='container mx-auto  pt-20   '>
     {/* about mother div */}
     <div className="flex ">
       <div className="w-1/2 ">        
@@ -22,7 +22,7 @@ const About_Us = () => {
       </div>
 
       <div className="w-1/2  ">
-        <h2 className={`${inter.className} font-bold text-4xl mt-16 `} >About Us</h2>
+        <h2 className={`${inter.className} font-bold text-4xl mt-16 text-[#274760]  `} >About Us</h2>
         <h6 className='text-[#307BC4]  '>PRO HEALTH</h6>
         <div className="flex mt-10  gap-5 ">
           <p className='text-[#307BC4] text-2xl'><FaArrowRightLong /></p>
