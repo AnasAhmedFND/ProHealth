@@ -1,11 +1,11 @@
 
 import React from 'react'
-import About_main from '@/Components/About/About_main'
+
 
 const page = () => {
   return (
     <>
-    <About_main/>
+  
       
     </>
   )

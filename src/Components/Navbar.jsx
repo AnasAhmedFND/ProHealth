@@ -14,7 +14,7 @@ const Navbar = () => {
     </div>   
    <ul className='flex  justify-around w-[60%]   '>
     <li className=''><Link href={'/'}>Home </Link> </li>
-    <li className=''><Link href={'/about-us'}>About</Link> </li>
+    <li className=''>About </li>
     <li className=''><Link href={'/find_doctor'}>Find Doctor </Link> </li>
     <li className=''>Page</li>
     <li className=''>Contact</li>
