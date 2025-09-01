@@ -3,8 +3,8 @@ import { FaRegCirclePlay } from "react-icons/fa6";
 
 const Hero = () => {
     return (
-        <section className='container mx-auto bg-[#C7E3F1]  h-[492px] '>
-            <div className='flex relative justify-between '>
+        <section className=' bg-[#C7E3F1]  h-[492px] '>
+            <div className='container mx-auto flex relative justify-between '>
                 <div className="w-1/2  pl-5">
                     <h1 className="text-4xl font-bold text-[#274760] mt-[14%] " >Your Partner in <br /> Health and Wellness</h1>
                     <p className="mt-5" >We are committed to providing you with the best medical

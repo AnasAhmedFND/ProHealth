@@ -6,7 +6,7 @@ import { FiSearch } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-   <section className='border py-5  '>
+   <section className=' py-5  '>
     <div className=" container mx-auto text-center flex justify-between items-center ">
     <div className=" w-[20%] ">
       <img className='w-[150px] h-[50px] ' src="/health.png" alt="health" />     
@@ -15,7 +15,7 @@ const Navbar = () => {
    <ul className='flex  justify-around w-[60%]   '>
     <li className=''><Link href={'/'}>Home </Link> </li>
     <li className=''><Link href={'/about-us'}>About</Link> </li>
-    <li className=''>Find Doctor</li>
+    <li className=''><Link href={'/find_doctor'}>Find Doctor </Link> </li>
     <li className=''>Page</li>
     <li className=''>Contact</li>
    </ul>
