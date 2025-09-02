@@ -153,9 +153,18 @@ const Doctor_items = () => {
                 managing mood disorders and anxiety <br />
                 disorders </small></p>
               <div className="flex justify-center gap-2 mt-2">
+                <a href="https://www.facebook.com/ProHealthLongevity/">
                 <p className='border p-2 rounded-full text-white bg-blue-500 '><BiLogoFacebook /></p>
+
+                </a>
+                <a href="https://www.linkedin.com/company/prohealthlongevity/">
                 <p className='border p-2 rounded-full text-white bg-blue-500 '><FaLinkedinIn /></p>
+
+                </a>
+                <a href="https://twitter.com/PHLongevity">
                 <p className='border p-2 rounded-full text-white bg-blue-500 '><FaTwitter /></p>
+
+                </a>
               </div>
             </div>
           </div>
