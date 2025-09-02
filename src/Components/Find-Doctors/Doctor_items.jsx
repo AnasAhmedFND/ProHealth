@@ -152,6 +152,7 @@ const Doctor_items = () => {
                 behavior, Dr. Jones is an expert in <br />
                 managing mood disorders and anxiety <br />
                 disorders </small></p>
+                {/* social icons */}
               <div className="flex justify-center gap-2 mt-2">
                 <a href="https://www.facebook.com/ProHealthLongevity/">
                 <p className='border p-2 rounded-full text-white bg-blue-500 '><BiLogoFacebook /></p>
@@ -170,6 +171,7 @@ const Doctor_items = () => {
           </div>
         ))}
       </div>
+      
     </section>
   )
 }
