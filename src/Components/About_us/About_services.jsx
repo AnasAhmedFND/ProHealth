@@ -15,7 +15,7 @@ const About_services = () => {
             <p className='text-blue-500'>SERVICES</p>
 
             {/* Services mother div */}
-            <div className="flex flex-wrap  justify-between gap-4 mt-2">
+            <div className="flex flex-wrap  justify-between gap-4 mt-2 text-[#274760] ">
                 {/* ziro  ( 0 ) */}
                 <motion.div
                     whileHover={{
