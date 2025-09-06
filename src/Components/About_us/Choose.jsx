@@ -62,6 +62,8 @@ const Choose = () => {
                 </div>
 
             </div>
+
+            <img className='mt-10' src="/about/persent.png" alt="persent" />
                 
         </section>
     )

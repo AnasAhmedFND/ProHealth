@@ -20,8 +20,8 @@ const Footer = () => {
             <p> <small>Copyright © 2024  All rights reserved.</small> </p>
 
           </div>
-          
-          
+
+
 
 
 
@@ -33,10 +33,12 @@ const Footer = () => {
         {/* one */}
         <div className="w-[30%] ">
           <img className='w-[180px] h-[70px]  px-4 py-2 rounded-2xl bg-white shadow-2xl' src="/health.png" alt="logo" />
-          <p className='text-black  flex gap-2 items-center  mt-8'><span className='border p-1 text-xl rounded-full bg-blue-500 text-white '> <CiLocationOn  /> </span> 123 Anywhere St., Any City 12345</p>
-          <p className='text-black  flex gap-2 items-center mt-2'><span className='border p-1 text-xl rounded-full bg-blue-500 text-white '><MdLocalPhone  /></span>  123-456-7890 </p>
-          <p className='text-black  flex gap-2 items-center mt-2 '><span className='border p-1 text-xl rounded-full bg-blue-500 text-white '>  <MdOutlineMailOutline  /></span>  hellocallcenter@gmail.com</p>
-          
+          <a href="https://www.popular-hospital.com/location-map">
+            <p className='text-black  flex gap-2 items-center  mt-8'><span className='border p-1 text-xl rounded-full bg-blue-500 text-white '> <CiLocationOn /> </span> 123 Anywhere St., Any City 12345</p>
+          </a>
+          <p className='text-black  flex gap-2 items-center mt-2'><span className='border p-1 text-xl rounded-full bg-blue-500 text-white '><MdLocalPhone /></span>  123-456-7890 </p>
+          <p className='text-black  flex gap-2 items-center mt-2 '><span className='border p-1 text-xl rounded-full bg-blue-500 text-white '>  <MdOutlineMailOutline /></span>  hellocallcenter@gmail.com</p>
+
         </div>
 
         {/* two */}
@@ -64,9 +66,9 @@ const Footer = () => {
         <div className="w-[30%] ">
           <h2 className='font-bold text-2xl'>Be Our Subscribers</h2>
           <p className='mt-2'><small>To get the latesst news about health from our <br /> Experts </small> </p>
-          <div className="flex border items-center justify-between  pl-4  mt-2 rounded-full  ">
-            <p>Examople@email.com</p>
-            <button className=' flex gap-2 items-center border rounded-full px-4 py-2 bg-linear-60 from-[#307BC4] to-[#274760] text-white'>Submit <FaArrowRightLong /></button>
+          <div className="flex border items-center justify-between  pl-2  mt-2 rounded-full w-[80%] ">
+            <p><small>Examople@email.com </small> </p>
+            <button className=' flex gap-2 items-center border-2 rounded-full px-2 py-2 bg-linear-60 from-[#307BC4] to-[#274760] text-white'>Submit <FaArrowRightLong /></button>
           </div>
 
         </div>

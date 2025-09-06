@@ -8,7 +8,7 @@ const inter = Inter({
 
 const Departments2 = () => {
     return (
-        <section className='container mx-auto  py-10 '>
+        <section className='container mx-auto  pb-10 pt-16 '>
             <h2 className={`${inter.className} font-bold text-4xl text-[#274760] `}>Departments</h2>
             {/* 2nd Departments main div */}
             <div className=" mt-10 flex justify-between ">
