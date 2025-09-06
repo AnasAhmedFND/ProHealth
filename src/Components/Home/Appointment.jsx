@@ -85,8 +85,8 @@ const Appointment = () => {
                 </form>
             </div>
             {/* Right div */}
-            <div className="w-1/2  ">
-                <img src="/home/appointment.png" alt="digsin" />
+            <div className="w-1/2  flex justify-center " style={{backgroundImage: "url('/home/appointment.png') " }}>
+                <img className='w-[60%] h-[70%] mt-[150px] ' src="/about/appointment_contact.png" alt="background_digsin" />
                 
             </div>
 
