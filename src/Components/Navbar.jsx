@@ -17,7 +17,7 @@ const Navbar = () => {
     <li className=''><Link href={'/about_us'}>About</Link>  </li>
     <li className=''><Link href={'/find_doctor'}>Find Doctor </Link> </li>
     <li className=''>Page</li>
-    <li className=''>Contact</li>
+    <li className=''><Link href={'/contact'} >Contact</Link> </li>
    </ul>
    <div className="flex gap-5 text-2xl w-[20%]  justify-end ">
     <p><FiSearch /></p>

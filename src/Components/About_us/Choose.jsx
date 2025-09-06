@@ -9,7 +9,7 @@ const Choose = () => {
             <div className="flex justify-between">
                 {/* left */}
                 <div className="w-[38%]  ">
-                    <img src="/about/abouts_main.png" alt="doctor" />
+                    <img src="/about/abouts_main1.png" alt="doctor" />
                 </div>
 
                 {/* right */}
