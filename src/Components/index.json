@@ -1,0 +1,112 @@
+ {
+  "products": [
+    {
+    "id": 1,
+    "date": "March 12",
+    "title": "The Importance of Mental Health: Understanding and Managing Anxiety Disorders",    
+    "image": "/blog/blog1 (1).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+   {
+    "id": 2,
+    "date": "March 13",
+    "title": "A Parent's Guide to Childhood Vaccinations: What You Need to Know",    
+    "image": "/blog/blog1 (2).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+  {
+    "id": 3,
+    "date": "March 13",
+    "title": "Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle",    
+    "image": "/blog/blog1 (3).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+  {
+    "id": 4,
+    "date": "March 14",
+    "title": "Managing Chronic Pain: Treatment Options and Strategies",    
+    "image": "/blog/blog1 (4).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+  {
+    "id": 5,
+    "date": "March 15",
+    "title": "Understanding and Managing Diabetes: Tips for Healthy Living",    
+    "image": "/blog/blog1 (5).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+  {
+    "id": 6,
+    "date": "March 16",
+    "title": "The Role of Physical Therapy in Injury Recovery and Prevention",    
+    "image": "/blog/blog1 (6).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+  {
+    "id": 7,
+    "date": "March 17",
+    "title": "Breaking the Stigma: Raising Awareness for Mental Health Issues",    
+    "image": "/blog/blog1 (7).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+  {
+    "id": 8,
+    "date": "March 18",
+    "title": "Allergies and Asthma: Causes, Symptoms, and Treatment Options",    
+    "image": "/blog/blog1 (8).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  },
+
+  {
+    "id": 9,
+    "date": "March 19",
+    "title": "Caring for Your Skin: Tips for Healthy, Glowing Skin",    
+    "image": "/blog/blog1 (9).png",    
+    "social": {
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "twitter": "https://twitter.com"
+    }
+  }
+
+  ]
+}
