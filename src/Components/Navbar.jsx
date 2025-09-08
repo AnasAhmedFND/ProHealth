@@ -27,6 +27,8 @@ const Navbar = () => {
           <li className=''><Link href={'/'}>Home </Link> </li>
           <li className=''><Link href={'/about_us'}>About</Link>  </li>
           <li className=''><Link href={'/find_doctor'}>Find Doctor </Link> </li>
+          <li className=''><Link href={'/blog'}>Blog </Link> </li>
+
           <li className=' '>
             <select className='w-[60px] items-center outline-none '
              name="pages" 
@@ -34,7 +36,7 @@ const Navbar = () => {
              onChange={handleChange}>
 
               <option value="Page">Page</option>
-              <option className='cursor-pointer ' value="/blog">Blog </option>
+              <option className='cursor-pointer ' value="/details">Details </option>
               <option value="ditails">Department Details</option>
             </select>
 
