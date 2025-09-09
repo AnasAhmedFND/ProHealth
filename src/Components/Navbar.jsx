@@ -30,14 +30,14 @@ const Navbar = () => {
           <li className=''><Link href={'/blog'}>Blog </Link> </li>
 
           <li className=' '>
-            <select className='w-[60px] items-center outline-none '
+            <select className=' w-[70px] items-center outline-none  '
              name="pages" 
              id="pages" 
              onChange={handleChange}>
 
               <option value="Page">Page</option>
               <option className='cursor-pointer ' value="/details">Details </option>
-              <option value="ditails">Department Details</option>
+              <option value="/gallery"> Gallery</option>
             </select>
 
           </li>
