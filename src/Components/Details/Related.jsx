@@ -1,4 +1,6 @@
+"use client"
 import React from 'react'
+
 import { TiSocialFacebook } from "react-icons/ti";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { TiSocialTwitter } from "react-icons/ti";
@@ -9,21 +11,22 @@ import { FiClock } from "react-icons/fi";
 
 
 const Related = () => {
+
     return (
-        <section className='container mx-auto  py-10 relative'>
-            {/* main div related doctor */}
+        <section className='container mx-auto  py-10 '>
+
             <div className=" flex ">
                 {/* left */}
                 <div className="  w-1/2   ">
-                    <img src="/department/related.png" alt="" />
+                    <img className='relative' src="/department/related.png" alt="" />
                 </div>
 
                 {/* right */}
                 <div className=" w-1/2 text-[#274760] ">
                     <h4 className='font-bold text-4xl ml-10 '>Related <br /> Doctor</h4>
-                    
+
                     {/* card */}
-                    <article className="shadow-2xl pt-3 rounded-xl bg-white absolute left-[380px] top-[300px] w-[50%] ">
+                    <article className="shadow-2xl pt-3 rounded-xl bg-white w-[500px] border absolute left-[480px] mt-32 ">
                         <div className="pl-3 ">
                             <h5 className='font-bold text-xl  '>Dr. Susan Bones, MD</h5>
                             <p className='font-bold mt-2   '>Board-certified Pediatrician</p>
@@ -51,6 +54,11 @@ const Related = () => {
                 </div>
 
             </div>
+
+
+
+
+
         </section>
     )
 }
