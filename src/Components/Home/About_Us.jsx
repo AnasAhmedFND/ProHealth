@@ -1,3 +1,5 @@
+
+
 import { Inter, Poppins } from 'next/font/google';
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";

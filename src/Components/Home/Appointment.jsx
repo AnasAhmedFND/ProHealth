@@ -1,11 +1,13 @@
+"use client"
+import { motion } from "framer-motion";
 import { Inter } from 'next/font/google';
 import React from 'react'
 import { FaCalendarAlt } from "react-icons/fa";
 import { FaRegClock } from "react-icons/fa";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const inter = Inter({
-    subsets:["latin"],
-    weight:["500","700"]
+    subsets: ["latin"],
+    weight: ["500", "700"]
 })
 const Appointment = () => {
     return (
@@ -27,7 +29,7 @@ const Appointment = () => {
 
                     </div>
                     <p className='mt-4'>
-                    <label className='' htmlFor="number">Medical Record Number</label><br />
+                        <label className='' htmlFor="number">Medical Record Number</label><br />
                     </p>
                     <input className='border w-full p-2 rounded-lg outline-none' type="text" placeholder='123456-7890-0987' />
                     <div className="mt-4 flex justify-between">
@@ -58,36 +60,40 @@ const Appointment = () => {
 
                         </div>
                         <div className="flex gap-2">
-                        <input type="radio" id='concern' name='concern' value='Specitic concern' />
-                        <label htmlFor="Specitic concern">Specitic Concern</label><br />
+                            <input type="radio" id='concern' name='concern' value='Specitic concern' />
+                            <label htmlFor="Specitic concern">Specitic Concern</label><br />
 
                         </div>
 
                     </div>
 
                     <h6 className='mt-4'># Department</h6>
-                    
-                        <div className="flex flex-wrap gap-4 mt-4">
-                            <input type="radio" id='pediatric' name='pediatric' value='pediatric' />
-                            <label htmlFor="pediatric">Pediatric</label><br />
 
-                            <input type="radio" id='Obstetrics' name='Obstetrics' value='Obstetrics' />
-                            <label htmlFor="Obstetrics">Obstetrics and Gynecology</label><br />
+                    <div className="flex flex-wrap gap-4 mt-4">
+                        <input type="radio" id='pediatric' name='pediatric' value='pediatric' />
+                        <label htmlFor="pediatric">Pediatric</label><br />
 
-                            <input type="radio" id='Cardiology' name='Cardiology' value='Cardiology' />
-                            <label htmlFor="Cardiology">Cardiology</label><br />
-                            
-                            <input type="radio" id='Cardiology' name='Cardiology' value='Cardiology' />
-                            <label htmlFor="Cardiology">Cardiology</label><br />
-                            
-                        </div>
+                        <input type="radio" id='Obstetrics' name='Obstetrics' value='Obstetrics' />
+                        <label htmlFor="Obstetrics">Obstetrics and Gynecology</label><br />
+
+                        <input type="radio" id='Cardiology' name='Cardiology' value='Cardiology' />
+                        <label htmlFor="Cardiology">Cardiology</label><br />
+
+                        <input type="radio" id='Cardiology' name='Cardiology' value='Cardiology' />
+                        <label htmlFor="Cardiology">Cardiology</label><br />
+
+                    </div>
                     <button className='items-center flex gap-2 border rounded-2xl bg-linear-60 from-[#307BC4] to-[#274760] px-6 py-2 text-center text-white mt-2 '>Submit<FaLongArrowAltRight /></button>
                 </form>
             </div>
             {/* Right div */}
-            <div className="w-1/2  flex justify-center " style={{backgroundImage: "url('/home/appointment.png') " }}>
-                <img className='w-[60%] h-[70%] mt-[150px] ' src="/about/appointment_contact.png" alt="background_digsin" />
-                
+            <div className="w-1/2  flex justify-center " style={{ backgroundImage: "url('/home/appointment.png') " }}>
+                <motion.img                    
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 1 }}
+                    
+                    className='w-[60%] h-[70%] mt-[150px] ' src="/about/appointment_contact.png" alt="background_digsin" />
+
             </div>
 
         </section>

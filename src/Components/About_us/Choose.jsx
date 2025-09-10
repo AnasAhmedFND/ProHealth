@@ -63,7 +63,7 @@ const Choose = () => {
 
             </div>
 
-            <img className='mt-10' src="/about/persent.png" alt="persent" />
+            <img className='mt-10 w-full' src="/about/persent.png" alt="persent" />
                 
         </section>
     )

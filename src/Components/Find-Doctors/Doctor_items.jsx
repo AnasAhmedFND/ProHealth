@@ -95,7 +95,7 @@ const Doctor_items = () => {
   const [viewType, setViewType] = useState("grid") // grid or list
 
   return (
-    <section className='container mx-auto  pb-10'>
+    <section className='container mx-auto '>
       {/* category */}
       <div className="flex  items-center  justify-between">
         <div className="flex items-center gap-2">
