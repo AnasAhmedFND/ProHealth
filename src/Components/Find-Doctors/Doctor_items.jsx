@@ -95,13 +95,13 @@ const Doctor_items = () => {
   const [viewType, setViewType] = useState("grid") // grid or list
 
   return (
-    <section className='container mx-auto '>
+    <section className='container mx-auto md:px-0 px-2  '>
       {/* category */}
-      <div className="flex  items-center  justify-between">
-        <div className="flex items-center gap-2">
+      <div className="md:flex  items-center  justify-between">
+        <div className="flex  items-center gap-2 ">
           <small>Short By:-</small>
           <nav className='ml-2'>
-            <ul className='flex items-center gap-2'>
+            <ul className=' flex md:overflow-hidden overflow-x-auto md:w-auto w-[230px] md:h-auto h-[70px]  items-center gap-2'>
               {Object.keys(find_item).map((portfolio) => (
                 <li key={portfolio} onClick={() => setActive(portfolio)} className={`${active === portfolio ? "bg-blue-500 text-white " : " "} border py-2 px-4 rounded-2xl shadow-md cursor-pointer`}>
                   {portfolio}
@@ -111,7 +111,7 @@ const Doctor_items = () => {
           </nav>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex md:justify-normal justify-between items-center md:gap-4 md:mt-0 mt-2">
           <small>Showing {find_item[active].length} items</small>
           <p 
             onClick={() => setViewType("grid")} 
@@ -127,12 +127,12 @@ const Doctor_items = () => {
       </div>
 
       {/* items-img */}
-      <div className={`mt-5 flex flex-wrap gap-4 ${viewType === "grid" ? "justify-between" : "flex-col"}`}>
+      <div className={`mt-5 md:flex md:flex-wrap gap-4 ${viewType === "grid" ? "justify-between" : "flex-col"}`}>
         {find_item[active].map((imgSrc, index) => (
           <div 
             key={index} 
             className={`pb-5 rounded-xl shadow-2xl bg-white 
-              ${viewType === "grid" ? "w-[32%] mt-5" : "w-full flex gap-4 p-4 items-center"}
+              ${viewType === "grid" ? "md:w-[32%] mt-5" : "w-full md:flex md:mt-0 mt-4 gap-4 p-4 items-center"}
             `}
           >
             {/* image */}
