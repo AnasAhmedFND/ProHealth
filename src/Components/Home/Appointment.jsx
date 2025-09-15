@@ -11,9 +11,9 @@ const inter = Inter({
 })
 const Appointment = () => {
     return (
-        <section className='container mx-auto flex  '>
+        <section className='container mx-auto md:flex md:flex-row flex flex-col-reverse md:px-0 px-2  '>
             {/* left-div */}
-            <div className="w-1/2 ">
+            <div className="md:w-1/2 ">
                 <p className='text-blue-600'><small>BOOK AN</small></p>
                 <h2 className={`${inter.className} text-2xl font-bold text-[#274760] `}>Appointment</h2>
                 <form className='mt-6' action="appointment">
@@ -87,7 +87,7 @@ const Appointment = () => {
                 </form>
             </div>
             {/* Right div */}
-            <div className="w-1/2  flex justify-center " style={{ backgroundImage: "url('/home/appointment.png') " }}>
+            <div className="md:w-1/2  flex justify-center " style={{ backgroundImage: "url('/home/appointment.png') " }}>
                 <motion.img                    
                     animate={{ rotate: 360 }}
                     transition={{ duration: 1 }}

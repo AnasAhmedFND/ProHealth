@@ -16,14 +16,14 @@ const inter = Inter({
 
 const About_Us = () => {
   return (
-   <section className='container mx-auto  pt-20   '>
+   <section className='container mx-auto md:pt-20 pt-10 md:px-0 px-2 md:pb-0 pb-4  '>
     {/* about mother div */}
-    <div className="flex ">
-      <div className="w-1/2 ">        
-        <img src="/about.jpg" alt="" />
+    <div className="md:flex ">
+      <div className="md:w-1/2 w-full ">        
+        <img className='' src="/about.jpg" alt="" />
       </div>
 
-      <div className="w-1/2  ">
+      <div className="md:w-1/2 w-full  ">
         <h2 className={`${inter.className} font-bold text-4xl mt-16 text-[#274760]  `} >About Us</h2>
         <h6 className='text-[#307BC4]  '>PRO HEALTH</h6>
         <div className="flex mt-10  gap-5 ">
@@ -33,6 +33,7 @@ const About_Us = () => {
           <p className={`${poppins.className} mt-4 text-sm `}>Dedicated to providing top-quality healthcare services. <br />We believe in a holistic approach to healthcare that <br />focuses on treating the whole person, not just the illness <br />or symptoms.</p>
 
           </div>
+
         </div>
       </div>
     </div>

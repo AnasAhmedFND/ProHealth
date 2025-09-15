@@ -1,11 +1,15 @@
+"use client"
 import React from 'react'
 import { FaRegCirclePlay } from "react-icons/fa6";
 
-const Hero = () => {
+
+const Hero = () => { 
+  
     return (
-        <section className=' bg-[#C7E3F1]  h-[492px] '>
-            <div className='container mx-auto flex relative justify-between '>
-                <div className="w-1/2  pl-5">
+        <section className=' bg-[#C7E3F1]  md:h-[492px]  '>
+            
+            <div className='container mx-auto md:flex md:relative justify-between md:px-0 px-2 '>
+                <div className="md:w-1/2 w-full  md:pl-5 md:pt-0 pt-2">
                     <h1 className="text-4xl font-bold text-[#274760] mt-[14%] " >Your Partner in <br /> Health and Wellness</h1>
                     <p className="mt-5" >We are committed to providing you with the best medical
                         and healthcare services to help you live healthier and
@@ -19,8 +23,8 @@ const Hero = () => {
                         </div>
                 </div>
 
-                <div className="w-1/2    ">
-                    <img className="absolute right-14 w-[60%] h-[163%] " src="/hero_img.png" alt="health hero" />
+                <div className="md:w-1/2 w-full    ">
+                    <img className="md:absolute right-14 md:w-[60%] h-[163%] " src="/hero_img.png" alt="health hero" />
                 </div>
             </div>
         </section>

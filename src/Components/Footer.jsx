@@ -10,10 +10,10 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <section className=' relative '>
-      <div className="  ">
-        <img className='h-[600px] w-full ' src="/footer/footer.png" alt="digsin" />
+      <div className="  ">                
+        <img className='md:h-[600px] h-[1200px] w-full ' src="/footer/footer.png" alt="digsin" />
         {/* bottom */}
-        <div className=" bg-[#307BC4] py-4    ">
+        <div className=" bg-[#307BC4] py-4  md:px-0 px-2  ">
           <div className="container mx-auto flex justify-between">
             <p className='flex items-center gap-2'><small>Follow Us</small>  <TiSocialLinkedinCircular /> <TiSocialFacebookCircular /> <FaInstagram /></p>
 
@@ -21,17 +21,13 @@ const Footer = () => {
 
           </div>
 
-
-
-
-
         </div>
 
       </div>
       {/* footer text mother div */}
-      <div className="container mx-auto  flex justify-between absolute top-[300px] left-[115px] ">
+      <div className="container mx-auto  md:flex justify-between absolute top-[300px] md:left-[115px] md:px-0 px-2 md:mt-0 mt-24 ">
         {/* one */}
-        <div className="w-[30%] ">
+        <div className="md:w-[30%] md:mt-0 mt-4  ">
           <img className='w-[180px] h-[70px]  px-4 py-2 rounded-2xl bg-white shadow-2xl' src="/health.png" alt="logo" />
           <a href="https://www.popular-hospital.com/location-map">
             <p className='text-black  flex gap-2 items-center  mt-8'><span className='border p-1 text-xl rounded-full bg-blue-500 text-white '> <CiLocationOn /> </span> 123 Anywhere St., Any City 12345</p>
@@ -42,8 +38,8 @@ const Footer = () => {
         </div>
 
         {/* two */}
-        <div className="w-[15%] flex flex-col gap-3 ">
-          <p>About Us</p>
+        <div className="md:w-[15%] md:mt-0 mt-4  flex flex-col gap-3 ">
+          <p className='md:font-mono font-bold md:mt-0 mt-2'>About Us</p>
           <p>Departments</p>
           <p>Doctors</p>
           <p>Timetable</p>
@@ -53,8 +49,8 @@ const Footer = () => {
         </div>
 
         {/* three */}
-        <div className="w-[15%] flex flex-col gap-3">
-          <p>Blog</p>
+        <div className="md:w-[15%] md:mt-0 mt-4  flex flex-col gap-3">
+          <p className='md:font-mono font-bold md:mt-0 mt-2'>Blog</p>
           <p>Contact Us</p>
           <p>FAQs</p>
           <p>Privacy Policy</p>
@@ -63,7 +59,7 @@ const Footer = () => {
         </div>
 
         {/* four */}
-        <div className="w-[30%] ">
+        <div className="md:w-[30%] md:mt-0 mt-4  ">
           <h2 className='font-bold text-2xl'>Be Our Subscribers</h2>
           <p className='mt-2'><small>To get the latesst news about health from our <br /> Experts </small> </p>
           <div className="flex border items-center justify-between  pl-2  mt-2 rounded-full w-[80%] ">

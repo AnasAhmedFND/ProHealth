@@ -8,12 +8,12 @@ const inter = Inter({
 
 const Departments2 = () => {
     return (
-        <section className='container mx-auto  pb-10 pt-16 '>
+        <section className='container mx-auto  pb-10 md:pt-16 md:px-0 px-2 '>
             <h2 className={`${inter.className} font-bold text-4xl text-[#274760] `}>Departments</h2>
             {/* 2nd Departments main div */}
-            <div className=" mt-10 flex justify-between ">
+            <div className=" mt-10 md:flex  gap-2 justify-between ">
                 {/* one */}
-                <div className=" w-[24%] p-4 rounded-2xl shadow-lg hover:bg-white hover:text-black bg-black text-white ">
+                <div className=" md:w-[24%] p-4 rounded-2xl shadow-lg hover:bg-white hover:text-black bg-black text-white ">
                     <div className="flex gap-3">
                         <img className='w-[60px]' src="/home/dep2-pic.png" alt="loga" />
                         <h6 className='font-bold '>Malcolm Baldrige <br />National Quality <br />Award</h6>
@@ -28,7 +28,7 @@ const Departments2 = () => {
 
                 </div>
                 {/* two */}
-                <div className=" w-[24%] p-4 rounded-2xl shadow-lg bg-white hover:bg-black hover:text-white">
+                <div className=" md:w-[24%] md:mt-0 mt-2 p-4 rounded-2xl shadow-lg bg-white hover:bg-black hover:text-white">
                     <div className="flex gap-3">
                         <img className='w-[60px]' src="/home/dep2-pic.png" alt="loga" />
                         <h6 className='font-bold '>HIMSS Davies <br />Award</h6>
@@ -41,7 +41,7 @@ const Departments2 = () => {
 
                 </div>
 
-                <div className=" w-[24%] p-4 rounded-2xl shadow-lg bg-white hover:bg-black hover:text-white">
+                <div className=" md:w-[24%] md:mt-0 mt-2 p-4 rounded-2xl shadow-lg bg-white hover:bg-black hover:text-white">
                     <div className="flex gap-3">
                         <img className='w-[60px]' src="/home/dep2-pic.png" alt="loga" />
                         <h6 className='font-bold '>Healthgrades <br />National’s Best <br />Hospital</h6>
@@ -55,7 +55,7 @@ const Departments2 = () => {
 
                 </div>
 
-                <div className=" w-[24%] p-4 rounded-2xl shadow-lg bg-white hover:bg-black hover:text-white">
+                <div className=" md:w-[24%] md:mt-0 mt-2 p-4 rounded-2xl shadow-lg bg-white hover:bg-black hover:text-white">
                     <div className="flex gap-3">
                         <img className='w-[60px]' src="/home/dep2-pic.png" alt="loga" />
                         <h6 className='font-bold '>Joint<br />Commission Gold<br />Seal of Approval </h6>

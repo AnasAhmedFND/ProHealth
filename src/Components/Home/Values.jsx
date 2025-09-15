@@ -18,9 +18,9 @@ const Values = () => {
 
 
     return (
-        <section className="container mx-auto border-t relative " >
+        <section className="container mx-auto md:border-t relative md:px-0 px-2 " >
             {/* book card */}
-            <div className="flex justify-between w-[90%]  px-5 py-8 rounded-xl ml-[5%] absolute top-[-60px] bg-white shadow-md/30 ">
+            <div className="md:flex justify-between w-[90%]  px-5 py-8 rounded-xl ml-[5%] absolute top-[-60px] bg-white shadow-md/30 hidden">
                 <div className="flex gap-3 items-center">
                     <p className="border text-xl w-[40px] h-[40px] flex justify-center items-center bg-blue-500 rounded-full text-white " ><FaPhoneAlt /></p>
                     <div className="">
@@ -50,16 +50,16 @@ const Values = () => {
                 </a>
             </div>
 
-            <div className="mt-28">
+            <div className="md:mt-28 mt-5">
                 <h2 className={`${inter.className}  text-4xl text-center text-[#274760] font-bold  `} >Our Values </h2>
-                {/* Mother card items  */}
-                <div className="mother flex justify-around mt-10   ">
+                {/* Mother card item  */}
+                <div className="mother md:flex justify-around md:mt-10 mt-4  ">
                     {/* Card-1 */}
                     <motion.div
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.8 }}
 
-                        className=" px-2 py-5 w-[31%] rounded-2xl text-center shadow-md/30 mt-6 h-[280px] ">
+                        className=" px-2 py-5 md:w-[31%] rounded-2xl text-center shadow-md/30 mt-6 h-[280px] ">
                         <div className="flex justify-center gap-2 mt-8 font-bold items-center   ">
                             <p className='border text-xl w-[30px] h-[30px] flex justify-center items-center bg-blue-500 rounded-full text-white'><LuHandHeart /></p>
                             <h5>Compassion</h5>
@@ -75,7 +75,7 @@ const Values = () => {
                     <motion.div
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.8 }}
-                        className=" px-2 py-5 w-[31%] rounded-2xl text-center shadow-md/30 h-[280px] ">
+                        className=" px-2 py-5 md:w-[31%] rounded-2xl text-center shadow-md/30 h-[280px] md:mt-0 mt-2 ">
                         <div className="flex justify-center gap-2 mt-8 font-bold items-center   ">
                             <p className='border text-xl w-[30px] h-[30px] flex justify-center items-center bg-blue-500 rounded-full text-white'><TbBulb /></p>
                             <h5>Excellence</h5>
@@ -92,7 +92,7 @@ const Values = () => {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.8 }}
 
-                        className=" px-2 py-5 w-[31%] rounded-2xl text-center shadow-md/30 mt-6 h-[280px]  ">
+                        className=" px-2 py-5 md:w-[31%] rounded-2xl text-center shadow-md/30 mt-6 h-[280px]  ">
                         <div className="flex justify-center gap-2 mt-8 font-bold items-center   ">
                             <p className='border text-xl w-[30px] h-[30px] flex justify-center items-center bg-blue-500 rounded-full text-white'><LuHandHeart /></p>
                             <h5>Integrity</h5>
@@ -108,13 +108,13 @@ const Values = () => {
 
                 </div>
                 {/* 2nd row 4-5 card */}
-                <div className="flex mt-5 justify-center gap-6">
+                <div className="md:flex mt-5 justify-center gap-6">
                     {/* Card-4 */}
                     <motion.div
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.8 }}
 
-                        className=" px-2 py-5 w-[31%] rounded-2xl text-center shadow-md/30 h-[280px]  ">
+                        className=" px-2 py-5 md:w-[31%] rounded-2xl text-center shadow-md/30 h-[280px]  ">
                         <div className="flex justify-center gap-2 font-bold items-center mt-8   ">
                             <p className='border text-xl w-[30px] h-[30px] flex justify-center items-center bg-blue-500 rounded-full text-white'><TbBulb /></p>
                             <h5>Respect</h5>
@@ -132,7 +132,7 @@ const Values = () => {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.8 }}
 
-                        className=" px-2 py-5 w-[31%] rounded-2xl text-center shadow-md/30 h-[280px]  ">
+                        className=" px-2 py-5 md:w-[31%] rounded-2xl text-center shadow-md/30 h-[280px]  ">
                         <div className="flex justify-center gap-2 font-bold items-center mt-8   ">
                             <p className='border text-xl w-[30px] h-[30px] flex justify-center items-center bg-blue-500 rounded-full text-white'><TbBulb /></p>
                             <h5>Teamwork</h5>

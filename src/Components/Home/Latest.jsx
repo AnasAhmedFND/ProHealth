@@ -10,15 +10,15 @@ const inter = Inter({
 
 const Latest = () => {
     return (
-        <section className='container mx-auto  pb-10 '>
+        <section className='container mx-auto  pb-10 md:px-0 px-2 '>
             <div className="text-center  ">
                 <h6 className='text-blue-500'><small>BLOG POSTS  </small> </h6>
                 <h2 className={`${inter.className}  font-bold text-4xl mt-1 text-[#274760] `}  >Latest Update</h2>
             </div>
             {/* latest-update card's mother div */}
-            <div className="flex justify-between mt-20">
+            <div className="md:flex justify-between md:mt-20 mt-10">
                 {/* one */}
-                <div className=" w-[32%] pb-4 bg-white rounded-2xl shadow-2xl">
+                <div className=" md:w-[32%] mt-2 pb-4 bg-white rounded-2xl shadow-2xl">
                     <img src="/home/latest1.png" alt="healthy-man" />
                     <div className="flex items-center gap-2 mt-4 pl-4">
                         <p>May 1, 2025</p>
@@ -36,7 +36,7 @@ const Latest = () => {
                 </div>
 
                 {/* two */}
-                <div className=" w-[32%] pb-4 bg-white rounded-2xl shadow-2xl">
+                <div className=" md:w-[32%] mt-2 pb-4 bg-white rounded-2xl shadow-2xl">
                     <img src="/home/latest2.png" alt="healthy-man" />
                     <div className="flex items-center gap-2 mt-4 pl-4">
                         <p>May 1, 2025</p>
@@ -55,7 +55,7 @@ const Latest = () => {
                 </div>
 
                 {/* three */}
-                <div className=" w-[32%] pb-4 bg-white rounded-2xl shadow-2xl">
+                <div className=" md:w-[32%] mt-2 pb-4 bg-white rounded-2xl shadow-2xl">
                     <img src="/home/latest3.png" alt="healthy-man" />
                     <div className="flex items-center gap-2 mt-4 pl-4">
                         <p>May 1, 2025</p>

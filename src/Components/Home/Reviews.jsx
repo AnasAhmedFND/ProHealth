@@ -11,12 +11,12 @@ const inter = Inter({
 
 const Reviews = () => {
     return (
-        <section className='container mx-auto  py-10  pt-10 '>
+        <section className='container mx-auto  md:py-10   pt-10 md:px-0 px-2 '>
             <h2 className={`${inter.className} text-center font-bold text-3xl text-[#274760]  `} >Some Reviews</h2>
             <h6 className='text-center text-[#307BC4] '>OF OUR CLIENTS</h6>
             {/* mother div 2-col*/}
-            <div className="flex mt-5">
-                <div className="border-r-2 border-blue-500 w-1/2 px-5 py-10  ">
+            <div className="md:flex mt-5">
+                <div className="md:border-r-2  md:border-blue-500 md:w-1/2 px-5 md:py-10  ">
                     {/* client-1 */}
                     <div className="flex gap-4 items-center">
                         <img src="/home/avatar_1.png" alt="clients man" />
@@ -44,7 +44,7 @@ const Reviews = () => {
                 </div>
 
 
-                <div className="flex w-1/2 justify-center gap-4 mt-14 ">
+                <div className="flex md:w-1/2 justify-center gap-4 mt-14 ">
                     <p className=' text-4xl '><FaQuoteLeft /></p>
                     <div className="">
                         <p>The pediatrician was great with him and made him feel at <br />
