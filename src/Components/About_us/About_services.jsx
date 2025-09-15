@@ -11,11 +11,11 @@ const inter = Inter({
 
 const About_services = () => {
     return (
-        <section className='container mx-auto pb-10 '>
+        <section className='container mx-auto pb-10 md:px-0 px-2'>
             <p className='text-blue-500'>SERVICES</p>
 
             {/* Services mother div */}
-            <div className="flex flex-wrap  justify-between gap-4 mt-2 text-[#274760] ">
+            <div className="md:flex md:flex-wrap  justify-between gap-4 mt-2 text-[#274760] ">
                 {/* ziro  ( 0 ) */}
                 <motion.div
                     whileHover={{
@@ -30,7 +30,7 @@ const About_services = () => {
                         duration: 0.3,
                         ease: "easeOut",
                     }}
-                    className=" w-[32%]  shadow-xl  rounded-xl rounded-r-2xl p-2">
+                    className=" md:w-[32%]    shadow-xl  rounded-xl rounded-r-2xl p-2">
                     <h2 className={`${inter.className} text-4xl font-bold`}>Provides Our <br /> Best Services</h2>
             </motion.div>
 
@@ -48,7 +48,7 @@ const About_services = () => {
                         duration: 0.3,
                         ease: "easeOut",
                     }}
-             className=" w-[32%] pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl">
+             className=" md:w-[32%] md:mt-0 mt-4 md:border-t-0 border-t-2 pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl">
                 <p className='border p-2 rounded-full text-white bg-blue-500 w-[40px] h-[40px] flex justify-center items-center text-xl  '><FaCalendarDays /></p>
                 <h4 className='font-bold mt-2 text-xl  text-[#274760] '>Diagnostic testing</h4>
                 <p className='mt-2'> Blood tests, imaging studies, and <br />
@@ -79,7 +79,7 @@ const About_services = () => {
                         duration: 0.3,
                         ease: "easeOut",
                     }} 
-             className=" w-[32%] pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl">
+             className=" md:w-[32%] md:mt-0 mt-4 md:border-t-0 border-t-2 pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl">
                 <p className='border p-2 rounded-full text-white bg-blue-500 w-[40px] h-[40px] flex justify-center items-center text-xl  '><FaCalendarDays /></p>
                 <h4 className='font-bold mt-2 text-xl  text-[#274760] '>Rehabilitation services</h4>
                 <p className='mt-2'> Blood tests, imaging studies, and <br />
@@ -110,7 +110,7 @@ const About_services = () => {
                         duration: 0.3,
                         ease: "easeOut",
                     }} 
-             className=" w-[32%] pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl  ">
+             className=" md:w-[32%] md:mt-0 mt-4 md:border-t-0 border-t-2 pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl  ">
                 <p className='border p-2 rounded-full text-white bg-blue-500 w-[40px] h-[40px] flex justify-center items-center text-xl  '><FaCalendarDays /></p>
                 <h4 className='font-bold mt-2 text-xl  text-[#274760] '>Preventive care</h4>
                 <p className='mt-2'> Blood tests, imaging studies, and <br />
@@ -140,7 +140,7 @@ const About_services = () => {
                         duration: 0.3,
                         ease: "easeOut",
                     }} 
-             className=" w-[32%] pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl ">
+             className=" md:w-[32%] md:mt-0 mt-4 md:border-t-0 border-t-2 pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl ">
                 <p className='border p-2 rounded-full text-white bg-blue-500 w-[40px] h-[40px] flex justify-center items-center text-xl  '><FaCalendarDays /></p>
                 <h4 className='font-bold mt-2 text-xl  text-[#274760] '>Treatment for acute and <br />
                     chronic conditions</h4>
@@ -171,7 +171,7 @@ const About_services = () => {
                         duration: 0.3,
                         ease: "easeOut",
                     }} 
-             className=" w-[32%] pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl ">
+             className=" md:w-[32%] md:mt-0 mt-4 md:border-t-0 border-t-2 pl-2 pt-2 shadow-xl  rounded-xl rounded-r-2xl ">
                 <p className='border p-2 rounded-full text-white bg-blue-500 w-[40px] h-[40px] flex justify-center items-center text-xl  '><FaCalendarDays /></p>
                 <h4 className='font-bold mt-2 text-xl  text-[#274760] '>Mental health services</h4>
                 <p className='mt-2'> Blood tests, imaging studies, and <br />

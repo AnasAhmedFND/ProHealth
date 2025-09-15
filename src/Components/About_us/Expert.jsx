@@ -16,13 +16,13 @@ const Expert = () => {
       <h2 className={`${inter.className} text-center font-bold mt-2 text-[#274760] text-4xl `} >Experts Doctor</h2>
 
       {/* Experts card main div */}
-      <div className="mt-[120px]  flex justify-between ">
+      <div className="mt-[120px]  md:flex justify-between ">
         {/* one */}
         <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
 
-          className="text-center relative  w-[32%] flex flex-col justify-center pb-4 pt-[200px]  rounded-2xl shadow-2xl ">
+          className="text-center relative md:mt-0 mt-28  md:w-[32%] flex flex-col justify-center pb-4 pt-[200px]  rounded-2xl shadow-2xl ">
           <img className='w-[70%] mx-auto absolute -top-[90px] left-12 ' src="/about/Ellipse1.png" alt="doctor" />
           <h5 className='font-bold text-xl '>Dr. James Lee, MD</h5>
           <h6 className='font-bold text-[#3e2837] '>Head of Cardiologist</h6>
@@ -40,7 +40,7 @@ const Expert = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
 
-          className="text-center relative  w-[32%] flex flex-col justify-center pb-4 pt-[200px]  rounded-2xl shadow-2xl ">
+          className="text-center relative md:mt-0 mt-28  md:w-[32%] flex flex-col justify-center pb-4 pt-[200px]  rounded-2xl shadow-2xl ">
           <img className='w-[70%] mx-auto absolute -top-[90px] left-12 ' src="/about/Ellipse2.png" alt="doctor" />
           <h5 className='font-bold text-xl '>Dr. Susan Bones, MD</h5>
           <h6 className='font-bold text-[#3e2837] '>Head of Cardiologist</h6>
@@ -58,7 +58,7 @@ const Expert = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.8 }}
 
-          className="text-center relative  w-[32%] flex flex-col justify-center pb-4 pt-[200px]  rounded-2xl shadow-2xl ">
+          className="text-center relative md:mt-0 mt-28  md:w-[32%] flex flex-col justify-center pb-4 pt-[200px]  rounded-2xl shadow-2xl ">
           <img className='w-[70%] mx-auto absolute -top-[90px] left-12 ' src="/about/Ellipse1.png" alt="doctor" />
           <h5 className='font-bold text-xl '>Dr. John Smith, MD</h5>
           <h6 className='font-bold text-[#3e2837] '>Head of Cardiologist</h6>
