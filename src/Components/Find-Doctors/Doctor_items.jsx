@@ -101,7 +101,7 @@ const Doctor_items = () => {
         <div className="flex  items-center gap-2 ">
           <small>Short By:-</small>
           <nav className='ml-2'>
-            <ul className=' flex md:overflow-hidden overflow-x-auto md:w-auto w-[230px] md:h-auto h-[70px]  items-center gap-2'>
+            <ul className=' flex md:overflow-hidden overflow-x-auto md:w-auto w-[290px] md:h-auto h-[70px]  items-center gap-2'>
               {Object.keys(find_item).map((portfolio) => (
                 <li key={portfolio} onClick={() => setActive(portfolio)} className={`${active === portfolio ? "bg-blue-500 text-white " : " "} border py-2 px-4 rounded-2xl shadow-md cursor-pointer`}>
                   {portfolio}

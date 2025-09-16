@@ -6,7 +6,7 @@ const inter = Inter({
 })
 const Find_Backseat = () => {
     return (
-        <section className='container mx-auto shadow-2xl  py-24 pb-56  pl-8 relative top-[220px] -z-20 text-[#cee0f3]' style={{backgroundImage: "url('/find/find_bg2.png') " }} >
+        <section className='container mx-auto shadow-2xl  py-24 pb-56  pl-8 relative md:top-[220px] top-[100px] -z-20 text-[#cee0f3] md:px-0 px-2' style={{backgroundImage: "url('/find/find_bg2.png') " }} >
             <h3 className={`${inter.className} text-4xl font-bold  `}>Don’t Let Your Health <br />
                 Take a Backseat!</h3>
 

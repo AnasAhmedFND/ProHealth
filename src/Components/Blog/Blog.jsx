@@ -30,17 +30,17 @@ const Blog = () => {
   const totalPages = Math.ceil(data.products.length / itemParPage);
 
   return (
-    <section className='container mx-auto text-[#274760]'>
+    <section className='container mx-auto text-[#274760] md:px-0 px-2 '>
       <p className={`${henny.className}  `}><Link href={"/"}>Home</Link> / <Link href={"/blog"}>Blog</Link> </p>
-      <h2 className='font-bold text-4xl mt-4'>Psychology and Life Style</h2>
+      <h2 className='font-bold md:text-4xl mt-4'>Psychology and Life Style</h2>
 
       {/* blog items's mother div */}
       
-      <div className="mt-5  flex flex-wrap justify-between ">
+      <div className="mt-5  md:flex md:flex-wrap justify-between ">
         {/* cards */}
         {currentItems.map((item) => (
-          <article className=" w-[32%] rounded-2xl shadow-xl mt-4 " key={item.id} >
-            <img src={item.image} alt="health" />
+          <article className=" md:w-[32%] rounded-2xl shadow-xl mt-4 " key={item.id} >
+            <img className=' w-full rounded-t-2xl' src={item.image} alt="health" />
             <div className="px-4 pb-4">
               <div className="flex mt-2 justify-between">
                 <p>{item.date}</p>
