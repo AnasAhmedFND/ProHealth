@@ -2,15 +2,15 @@ import React from 'react'
 
 const Treatments = () => {
     return (
-        <section className=' container mx-auto'>
-            <p className='text-blue-400'>MORE TYPE OF</p>
+        <section className=' container mx-auto md:px-0 px-2 '>
+            <p className='text-blue-400 md:mt-0 mt-4'>MORE TYPE OF</p>
             <h4 className='font-bold text-4xl text-[#274760] mt-2.5 '>Treatments</h4>
 
             {/* mother div card's */}
-            <div className=" flex justify-around bg-linear-60 from-[#ADDEE8] to-[#4494E6] py-10 rounded-2xl mt-10">
+            <div className=" md:flex justify-around bg-linear-60 from-[#ADDEE8] to-[#4494E6] py-10 rounded-2xl mt-10">
 
 
-                <div className=" w-[22%]  text-center flex flex-col justify-center text-white ">
+                <div className=" md:w-[22%]   text-center flex flex-col justify-center text-white ">
                     <div className="flex  justify-center">
                         <img className='w-[60px] h-[60px] ' src="/department/tr (1).png" alt="treatments_icon" />
 
@@ -26,7 +26,7 @@ const Treatments = () => {
 
 
 
-                <div className=" w-[22%]  text-center flex flex-col justify-center text-white ">
+                <div className=" md:w-[22%]   text-center flex flex-col justify-center text-white ">
                     <div className="flex  justify-center">
                         <img className='w-[60px] h-[60px] ' src="/department/tr (2).png" alt="treatments_icon" />
 
@@ -40,7 +40,7 @@ const Treatments = () => {
                 </div>
 
 
-                <div className=" w-[22%]  text-center flex flex-col justify-center text-white ">
+                <div className=" md:w-[22%]   text-center flex flex-col justify-center text-white ">
                     <div className="flex  justify-center">
                         <img className='w-[60px] h-[60px] ' src="/department/tr (3).png" alt="treatments_icon" />
 
@@ -54,7 +54,7 @@ const Treatments = () => {
                         including measles.</p>
                 </div>
 
-                <div className=" w-[22%]  text-center flex flex-col justify-center text-white ">
+                <div className=" md:w-[22%]   text-center flex flex-col justify-center text-white ">
                     <div className="flex  justify-center">
                         <img className='w-[60px] h-[60px] ' src="/department/tr (4).png" alt="treatments_icon" />
 

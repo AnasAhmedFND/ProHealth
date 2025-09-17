@@ -55,8 +55,8 @@ const Navbar = () => {
               onChange={handleChange}>
 
               <option value="Page">Page</option>
-              <option className='cursor-pointer ' value="/details">Details </option>
-              <option value="/gallery"> Gallery</option>
+              <option className='cursor-pointer text-black' value="/details">Details </option>
+              <option className='cursor-pointer text-black ' value="/gallery"> Gallery</option>
             </select>
 
           </li>

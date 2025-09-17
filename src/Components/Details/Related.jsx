@@ -13,20 +13,20 @@ import { FiClock } from "react-icons/fi";
 const Related = () => {
 
     return (
-        <section className='container mx-auto  py-10 '>
+        <section className='container mx-auto  py-10 md:px-0 px-2 '>
 
-            <div className=" flex ">
+            <div className=" md:flex ">
                 {/* left */}
-                <div className="  w-1/2   ">
-                    <img className='relative' src="/department/related.png" alt="" />
+                <div className="  md:w-1/2   ">
+                    <img className='md:relative' src="/department/related.png" alt="" />
                 </div>
 
                 {/* right */}
-                <div className=" w-1/2 text-[#274760] ">
-                    <h4 className='font-bold text-4xl ml-10 '>Related <br /> Doctor</h4>
+                <div className=" md:w-1/2 text-[#274760] ">
+                    <h4 className='font-bold text-4xl md:ml-10 md:mt-0 mt-2 '>Related <br /> Doctor</h4>
 
                     {/* card */}
-                    <article className="shadow-2xl pt-3 rounded-xl bg-white w-[500px] border absolute left-[480px] mt-32 ">
+                    <article className="shadow-2xl pt-3 rounded-xl bg-white md:w-[500px]  border md:absolute md:left-[480px] md:mt-32 ">
                         <div className="pl-3 ">
                             <h5 className='font-bold text-xl  '>Dr. Susan Bones, MD</h5>
                             <p className='font-bold mt-2   '>Board-certified Pediatrician</p>
