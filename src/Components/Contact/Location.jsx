@@ -13,12 +13,12 @@ const inter = Inter({
 const Location = () => {
 
   return (
-    <section className='container mx-auto pb-10'>
-        <h2 className={`${inter.className} text-4xl font-bold text-[#274760] `}>Find Us Here</h2>
+    <section className='container mx-auto pb-10 md:px-0 px-2'>
+        <h2 className={`${inter.className} text-4xl font-bold text-[#274760] mt-4 `}>Find Us Here</h2>
         {/* contact card's mother div */}
-        <div className="mt-8 flex justify-between ">
+        <div className="mt-8 md:flex justify-between ">
             {/* one */}
-            <div className="flex border gap-4 w-[30%] bg-[#D2EAEF] rounded-xl items-center px-4 py-2  ">
+            <div className="flex border gap-4 md:w-[30%] bg-[#D2EAEF] rounded-xl items-center px-4 py-2  ">
                 <p className='text-4xl text-blue-500 '><FiPhone /></p>
                 <div className="">
                     <h6>Phone</h6>
@@ -27,7 +27,7 @@ const Location = () => {
             </div>
 
              {/* two */}
-            <div className="flex border gap-4 w-[30%] bg-[#D2EAEF] rounded-xl items-center px-4 py-2  ">
+            <div className="flex border gap-4 md:w-[30%] md:mt-0 mt-2 bg-[#D2EAEF] rounded-xl items-center px-4 py-2  ">
                 <p className='text-4xl text-blue-500 '><TfiEmail /></p>
                 <div className="">
                     <h6>Email</h6>
@@ -36,7 +36,7 @@ const Location = () => {
             </div>
 
              {/* three */}
-            <div className="flex gap-4 w-[30%] bg-[#D2EAEF] rounded-xl items-center px-4 py-2  ">
+            <div className="flex gap-4 md:w-[30%] md:mt-0 mt-2 bg-[#D2EAEF] rounded-xl items-center px-4 py-2  ">
                 <p className='text-4xl text-blue-500 '><SlLocationPin /></p>
                 <div className="">
                     <h6>Location</h6>

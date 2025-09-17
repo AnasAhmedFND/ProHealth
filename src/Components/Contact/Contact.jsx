@@ -3,15 +3,15 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <section className='container mx-auto   relative -top-[150px] '>
-            <form action="contact" className=' w-[90%] mx-auto bg-white shadow-xl rounded-xl py-20 px-[130px] '>
-                <div className="flex  justify-between  ">
-                    <div className="w-[49%]  ">
+        <section className='container mx-auto   md:relative md:-top-[150px] md:px-0 px-2 '>
+            <form action="contact" className=' w-[90%] mx-auto bg-white shadow-xl rounded-xl py-20 md:px-[130px] px-5 md:border-t-0 border-t-2 '>
+                <div className="md:flex  justify-between  ">
+                    <div className="md:w-[49%]  ">
                         <label htmlFor="name">Name</label> <br />
                         <input className='border border-blue-400 p-2  rounded-lg shadow-lg w-full mt-2 ' type="name" placeholder='Type Name..' />
                     </div>
 
-                    <div className="w-[49%]  ">
+                    <div className="md:w-[49%]  ">
                         <label htmlFor="email">Email</label> <br />
                         <input className='border border-blue-400 p-2  rounded-lg shadow-lg w-full mt-2 ' type="email" placeholder='Type Email..' />
 
